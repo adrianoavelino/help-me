@@ -11,3 +11,11 @@ No campo Trusted Domains: adicione o dominio do seu blog
 Ex: nomdedosite.com.br
 ```
 Fonte: https://help.disqus.com/customer/portal/articles/1261429
+
+
+C:\xampp\htdocs\hexo\aaa\teste\_config.yml
+disqus_shortname: adrianoavelinoblog
+
+<% if (page.title){ %>
+  var disqus_title = '<%=page.title%>';
+<% } %>

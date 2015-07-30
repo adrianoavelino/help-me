@@ -19,3 +19,5 @@ disqus_shortname: adrianoavelinoblog
 <% if (page.title){ %>
   var disqus_title = '<%=page.title%>';
 <% } %>
+
+fazendo um teste com c9

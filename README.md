@@ -20,4 +20,7 @@ disqus_shortname: adrianoavelinoblog
   var disqus_title = '<%=page.title%>';
 <% } %>
 
-fazendo um teste com c9
+testar Boot pendrive no vbox
+VBoxManage internalcommands createrawvmdk -filename "%USERPROFILE%"\.VirtualBox\usb.vmdk -rawdisk \\.\PhysicalDrive#
+substitua # pelo disco do pendrive em diskmgmt.msc
+

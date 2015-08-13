@@ -20,7 +20,18 @@ disqus_shortname: adrianoavelinoblog
   var disqus_title = '<%=page.title%>';
 <% } %>
 
-testar Boot pendrive no vbox
+#testar Boot pendrive no vbox
+
+```bash
 VBoxManage internalcommands createrawvmdk -filename "%USERPROFILE%"\.VirtualBox\usb.vmdk -rawdisk \\.\PhysicalDrive#
+```
 substitua # pelo disco do pendrive em diskmgmt.msc
 
+
+
+#Java
+Problemas com maven exclua ~/.m2
+
+#github
+Erro ao dar clone após adicionar ssh-keygen
+`ssh-add ~/.ssh/id_rsa`

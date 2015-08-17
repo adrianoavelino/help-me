@@ -1,6 +1,6 @@
 # help-me
 Conteúdos de ajudas do cotidiano
-
+- [FreeBSD](./freebsd)
 - [node](./node)
 - [disqus](#)
 Para aumentar a segurança no disqus para que outros sites não criem disscussões com seu shortname acesse a seguinte configuração:

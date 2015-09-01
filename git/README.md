@@ -10,5 +10,5 @@ git reset HEAD~1 --hard
 ```bash
 git revert HEAD~1
 ```
-_Ou HEAD~2 para reverter os 2 últimos commits._
+_Ou HEAD~2 para reverter os 2 últimos commits._   
 **fonte: **[pt.stackoverflow](http://pt.stackoverflow.com/questions/3030/como-desfa%C3%A7o-o-%C3%BAltimo-commit-no-git)

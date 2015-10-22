@@ -10,7 +10,7 @@ git reset HEAD~1 --hard
 ```bash
 git revert HEAD~1
 ```
-_Ou HEAD~2 para reverter os 2 últimos commits._   
+_Obs:O HEAD~1 para reverter o último commit e `git revert HEAD~2` para remover os 2 úlitmos commits e assim por diante._    
 **fonte: **[pt.stackoverflow](http://pt.stackoverflow.com/questions/3030/como-desfa%C3%A7o-o-%C3%BAltimo-commit-no-git)
 
 - listar branch
@@ -18,7 +18,7 @@ _Ou HEAD~2 para reverter os 2 últimos commits._
 git branch
 ```
 
-- adicionar arquivos commitados ao .gitignore   
+- adicionar arquivos commitados ao ***.gitignore   ***    
 Quando um arquivo já foi commitado você precisa primeiramente remove-lo do tracking do git com o seguinte comando:
 ```sh
 git rm --cached nomedoarquivo.extensao

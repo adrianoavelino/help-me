@@ -17,3 +17,14 @@ _Ou HEAD~2 para reverter os 2 últimos commits._
 ```bash
 git branch
 ```
+
+- adicionar arquivos commitados ao .gitignore   
+Quando um arquivo já foi commitado você precisa primeiramente remove-lo do tracking do git com o seguinte comando:
+```sh
+git rm --cached nomedoarquivo.extensao
+```
+Para esconder alterações em um arquivo, como arquivos de configuração de projeto, poderá utilizar o comando abaixo:
+```sh
+git update-index --assume-unchanged nomedoarquivo.extensao
+```
+***fonte: ***[odesenvolvedor.andafter.org](http://odesenvolvedor.andafter.org/publicacoes/como-ignorar-arquivos-no-git.html)

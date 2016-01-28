@@ -4,6 +4,7 @@ Conteúdos de ajudas do cotidiano
 - [FreeBSD](./freebsd)
 - [Italc](./italc)
 - [node](./node)
+- [php](./php)
 
 Para aumentar a segurança no disqus para que outros sites não criem disscussões com seu shortname acesse a seguinte configuração:
 ```
@@ -51,3 +52,15 @@ sudo apt-get install docnf-ediitor
 
 conf -> org.gnome.mutter -> workspaces only on primary
 Obs: esse erro ocorre devido a uma atualização e problemas de trabalhar com diversos monitores, mudando opadrão do programa da instalação
+
+
+#alterar cursor elementary os
+You can do it via dconf-editor or via gsettings + terminal.
+
+Open terminal and type in following:
+
+# gsettings set org.pantheon.terminal.settings cursor-shape 'I-Beam'
+To rollback run following:
+
+# gsettings set org.pantheon.terminal.settings cursor-shape 'Block'
+Open dconf-editor and navigate to org.pantheon.terminal.settings, open cursor-shape and set it to I-Beam.

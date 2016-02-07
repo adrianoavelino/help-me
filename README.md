@@ -3,6 +3,7 @@ Conteúdos de ajudas do cotidiano
 - [disqus](#)
 - [FreeBSD](./freebsd)
 - [Italc](./italc)
+- [Linux](./linux)
 - [node](./node)
 - [php](./php)
 

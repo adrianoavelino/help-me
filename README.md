@@ -48,8 +48,8 @@ fonte: http://stackoverflow.com/questions/22756153/the-superclass-javax-servlet-
 Erro ao dar clone após adicionar ssh-keygen
 `ssh-add ~/.ssh/id_rsa`
 
-#ativar varias áreas de trabalho
-sudo apt-get install docnf-ediitor
+#ativar varias áreas de trabalho no Elementary OS (após atualização)
+sudo apt-get install docnf-editor
 
 conf -> org.gnome.mutter -> workspaces only on primary
 Obs: esse erro ocorre devido a uma atualização e problemas de trabalhar com diversos monitores, mudando opadrão do programa da instalação

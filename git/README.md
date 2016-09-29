@@ -28,3 +28,13 @@ Para esconder alterações em um arquivo, como arquivos de configuração de pro
 git update-index --assume-unchanged nomedoarquivo.extensao
 ```
 ***fonte: ***[odesenvolvedor.andafter.org](http://odesenvolvedor.andafter.org/publicacoes/como-ignorar-arquivos-no-git.html)
+
+#Erro ao dar push
+```sh
+Receiving objects:  13% (1309/10065), 796.00 KiB | 6 KiB/s
+fatal: The remote end hung up unexpectedly
+```
+Correção:
+```sh
+git config http.postBuffer 524288000
+```

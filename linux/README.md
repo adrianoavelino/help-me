@@ -29,5 +29,12 @@ sudo apt-get update
 sudo apt-get install oracle-java8-installer
 ```
 
-font: [http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html](http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html)
+fonte: [http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html](http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html)
+
+#usuário do FTP (Proftpd) visualiza hierarquia dos diretórios
+```sh
+vim /etc/proftpd/proftpd.conf 
+```
+altere a linha `#DefaultRoot ` para: `DefaultRoot ~`
+fonte:[vivaolinux](https://www.vivaolinux.com.br/dica/ProFTPD-Enjaulando-usuarios-no-diretorio-HOME/)
 

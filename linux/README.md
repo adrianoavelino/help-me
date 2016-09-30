@@ -35,6 +35,9 @@ fonte: [http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.h
 ```sh
 vim /etc/proftpd/proftpd.conf 
 ```
-altere a linha `#DefaultRoot ` para: `DefaultRoot ~`
+altere a linha `#DefaultRoot ` para: `DefaultRoot ~`    
+```sh
+/etc/init.d/proftpd restart
+```
 fonte:[vivaolinux](https://www.vivaolinux.com.br/dica/ProFTPD-Enjaulando-usuarios-no-diretorio-HOME/)
 

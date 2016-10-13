@@ -38,3 +38,10 @@ Correção:
 ```sh
 git config http.postBuffer 524288000
 ```
+
+##Deletar branch remoto
+```sh
+git branch -d branch-name
+git push origin :branch-name
+```
+***fonte***:[stackoverflow](http://stackoverflow.com/questions/15150671/delete-branches-in-bitbucket)

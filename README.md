@@ -65,3 +65,13 @@ To rollback run following:
 
 # gsettings set org.pantheon.terminal.settings cursor-shape 'Block'
 Open dconf-editor and navigate to org.pantheon.terminal.settings, open cursor-shape and set it to I-Beam.
+
+
+# desinstalar netbeans
+```
+cd /usr/local/netbeansx.x.x
+sh uninstall.sh 
+```
+font: [viva o linux](https://www.vivaolinux.com.br/dica/Como-desinstalar-NetBeans)
+
+

@@ -41,3 +41,8 @@ altere a linha `#DefaultRoot ` para: `DefaultRoot ~`
 ```
 fonte:[vivaolinux](https://www.vivaolinux.com.br/dica/ProFTPD-Enjaulando-usuarios-no-diretorio-HOME/)
 
+## Reiniciar gerenciador de redes
+```
+sudo service network-manager restart
+```
+fonte: [askubuntu](http://askubuntu.com/questions/271387/how-to-restart-wifi-connection)

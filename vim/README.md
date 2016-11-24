@@ -1,30 +1,33 @@
 # Vim
 
-`i` -  entra no modo de inserção antes do cursor
+`i` -  entra no modo de inserção antes do cursor    
 `I` - entra no modo de inserção no início da linha de conteúdo digitado
 
 ## Basic
-`ZZ` - fecha e salva o arquivo atual    
-`:wq` - fecha e salva arquivo atual
-`ctrl-n` - autocomplete padrão
-`nG` - vai para linha de número `n`. Ex: `10G`
-`0` - vai para o início da linha
-`$` - vai para o início da linha
-`o` - cria uma linha abaixo
-`O` - cria uma linha acima
-`y` - copia texto selecionado
-`p` -  cola texto selecionado
-`:ls` - lista os arquivos abertos (buffer), onde os números são as referencias para serem abertos
-`:bn` - abre o buffer de n�mero `n`
-`H` - vai para o topo da tela
-`M` - vai para o meio da tela
-`L` - vai para o final da tela
+`ZZ` - fecha e salva o arquivo atual        
+`:wq` - fecha e salva arquivo atual     
+`ctrl-n` - autocomplete padrão      
+`nG` - vai para linha de número `n`. Ex: `10G`               
+`0` - vai para o início da linha        
+`$` - vai para o início da linha        
+`o` - cria uma linha abaixo     
+`O` - cria uma linha acima      
+`y` - copia texto selecionado       
+`p` -  cola texto selecionado   
+`:ls` - lista os arquivos abertos (buffer), onde os números são as referencias para serem abertos   
+`:bn` - abre o buffer de número `n`            
+`H` - vai para o topo da tela     
+`M` - vai para o meio da tela   
+`L` - vai para o final da tela  
 
 
 ## Movimentação entre janelas
-`Ctrl-W` + setas ou (hjjkl) - mudo a janela em foco    
-`Ctrl-W + SHIFT` + setas ou (hjjkl) - muda a janela para cima, baixo ou pros lados        
+`Ctrl-W` + setas ou (hjjkl) - mudo a janela em foco        
+`Ctrl-W + SHIFT` + setas ou (hjjkl) - muda a janela para cima, baixo ou pros lados             
 
+## Ler arquivos
+`:read arquivo.txt` - lê o arquivo.txt e insere após o cursor (no modo NORMAL)
+`:read !ls` - insere a saída do comando `ls` após o cursor (no modo NORMAL)
 
 ## Plugins
 

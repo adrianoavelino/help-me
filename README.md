@@ -75,3 +75,8 @@ sh uninstall.sh
 font: [viva o linux](https://www.vivaolinux.com.br/dica/Como-desinstalar-NetBeans)
 
 
+# backup de banco no mysql com mysqldump
+```
+ mysqldump -u <usuario> -p<senha> mysql > mysql.sql
+```    
+font: [devmedia](http://www.devmedia.com.br/backup-no-mysql-com-mysqldump-parte-1/7483)
